@@ -20,12 +20,12 @@ class Team
   end
 end
 
-giants = Team.new("Giants", 67.to_s, 45.to_s, 8.to_s)
-tigers = Team.new("Tigers", 60.to_s, 53.to_s, 7.to_s)
-dragons = Team.new("Dragons", 60.to_s, 55.to_s, 5.to_s)
-baystars = Team.new("BayStars", 56.to_s, 58.to_s, 6.to_s)
-carp = Team.new("Carp", 52.to_s, 56.to_s, 12.to_s)
-swallows = Team.new("Swallows", 41.to_s, 69.to_s, 10.to_s)
+giants = Team.new("Giants", 67, 45, 8)
+tigers = Team.new("Tigers", 60, 53, 7)
+dragons = Team.new("Dragons", 60, 55, 5)
+baystars = Team.new("BayStars", 56, 58, 6)
+carp = Team.new("Carp", 52, 56, 12)
+swallows = Team.new("Swallows", 41, 69, 10)
 
 giants.show_team_result
 tigers.show_team_result
@@ -33,10 +33,3 @@ dragons.show_team_result
 baystars.show_team_result
 carp.show_team_result
 swallows.show_team_result
-
-p giants
-p tigers
-p dragons
-p baystars
-p carp
-p swallows
